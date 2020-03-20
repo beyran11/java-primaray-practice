@@ -1,5 +1,6 @@
 
 
+import mth.numeric.functions.MyNumber;
 import ug.joshh.animal.Dog;
 
 public class HelloSample {
@@ -30,6 +31,10 @@ public class HelloSample {
 
         //Package Tester
         Dog dog=new Dog();
+
+        MyNumber number=new MyNumber();
+
+        System.out.println(number.isPrime(5));
 
 
     }
