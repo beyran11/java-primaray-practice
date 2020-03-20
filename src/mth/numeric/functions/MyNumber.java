@@ -41,6 +41,19 @@ public class MyNumber {
         return sum;
     }
 
+    public boolean isOdd(int number) {
+        if (number < 2) {
+            return false;
+        } else {
+
+                if (number % number == 0) {
+                    return false;
+                }
+
+            return true;
+        }
+    }
+
 
 }
 
