@@ -32,6 +32,12 @@ public class HelloSample {
         //Package Tester
         Dog dog=new Dog();
 
+        dog.changeName("Cherchil") ;
+        dog.changeWeight(20);
+        dog.changeSpeed(30);
+        dog.printStates();
+
+
         MyNumber number=new MyNumber();
 
         System.out.println(number.isPrime(5));
