@@ -3,6 +3,9 @@
 import mth.numeric.functions.MyNumber;
 import ug.joshh.animal.Dog;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class HelloSample {
 
     public static void main(String[] args){
@@ -41,6 +44,15 @@ public class HelloSample {
         MyNumber number=new MyNumber();
 
         System.out.println(number.isPrime(5));
+
+        int [] ints = new int[]{1,2,3};
+
+        System.out.println(ints[2]);
+
+        List<Integer> intsList = new ArrayList<>();
+        intsList.add(5);
+
+        System.out.println(intsList);
 
 
     }

@@ -46,7 +46,7 @@ public class MyNumber {
             return false;
         } else {
 
-                if (number % number == 0) {
+                if (number % number == 1) {
                     return false;
                 }
 
